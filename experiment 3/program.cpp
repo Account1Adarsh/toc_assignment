@@ -37,7 +37,9 @@ int main(){
             }
             else{
                 if(s[i]=='0') curr='a';
+                else curr='b';
             }
+            i++;
         }
         if(curr=='a'){
             cout<<"Yes , its correct and acceptable input"<<endl;
