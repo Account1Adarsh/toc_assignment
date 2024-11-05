@@ -18,6 +18,6 @@ int main(){
     }
     else{
         cout<<"Number of zeros are: "<<z<<endl;
-        cout<<"Number of ones are: "<<one<<endl;
+        cout<<"Number of ones are: "<<two<<endl;
     }
 }
