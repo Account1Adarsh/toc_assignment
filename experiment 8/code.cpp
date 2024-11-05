@@ -28,6 +28,6 @@ int main(){
             }
             else break;
         }
-        cout<<"Increament of the input string is: "<<s<<endl;
+        cout<<"Increament of the input string is:"<<s<<endl;
     }
 }
