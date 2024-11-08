@@ -26,6 +26,7 @@ int main(){
                 }
                 else s[i]='0';
             }
+            // hello
             else break;
         }
         cout<<"Increament of the input string is:"<<s<<endl;
