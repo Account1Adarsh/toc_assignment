@@ -15,8 +15,8 @@ int main(){
         else extra++;
     }
     if(extra) cout<<"INVALID INPUT"<<endl;
-    if(a!=b or b!=c or a!=c or n%3!=0){
-        cout<<"NO"<<endl;
+    else if(a!=b or b!=c or a!=c or n%3!=0){
+        cout<<"NOT ACCEPTED"<<endl;
     }
     else{
         int check=0;
@@ -25,6 +25,7 @@ int main(){
             else cout<<"NOT ACCEPTED"<<endl;
         }
         else if(a==b and b==c and c==a){
+            a--;
             for(int i=1;i<n;i++){
                 if(s[i]==s[i-1]){
                     if(check==0) a--;
