@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     string s;
+    cout<<"INPUT STRING: ";
     cin>>s;
     int a=0,b=0,c=0;
     int n=s.length();

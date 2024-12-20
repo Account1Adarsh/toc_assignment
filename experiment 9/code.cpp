@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     string s;
+    COUT<<"INPUT STRING: "
     cin>>s;
     int a=0,b=0,c=0;
     for(int i=0;i<s.length();i++){
