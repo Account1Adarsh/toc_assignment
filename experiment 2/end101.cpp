@@ -10,24 +10,24 @@ int main(){
         cin>>s;
         
         int n=s.length();
+        int z=0;
+        int one=0;
+        for(int i=0;i<n;i++){
+            if(s[i]=='1') one++;
+            else if(s[i]=='0') z++;
+        }
         if(n>=3){
-            if(s[n-1]=='1' and s[n-2]=='0' and s[n-3]=='1'){
-            cout<<"accepted string "<<endl;
-            break;
-        }
-        else{
-            int z=0;
-            int one=0;
-            for(int i=0;i<n;i++){
-                if(s[i]=='1') one++;
-                else if(s[i]=='0') z++;
+            if(s[n-1]=='1' and s[n-2]=='0' and s[n-3]=='1' and z+one==n){
+                cout<<"accepted string "<<endl;
+                break;
             }
-            if(z+one==n){
-                cout<<"String not accepted"<<endl;
+            else{
+                if(z+one==n){
+                    cout<<"String not accepted"<<endl;
+                }
+                else cout<<"invalid string"<<endl;
+                }
             }
-            else cout<<"invalid string"<<endl;
-            }
-        }
         
         
         cout<<"want to again enter input 1 for yes 0 for no"<<endl;
