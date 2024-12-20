@@ -6,7 +6,7 @@ int main(){
     string s;
     cin>>s;
     int z=0;
-    int two=0;
+    int one=0;
     int extra=0;
     for(int i=0;i<s.length();i++){
         if(s[i]=='0') z++;
